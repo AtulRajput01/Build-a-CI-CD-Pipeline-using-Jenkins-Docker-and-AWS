@@ -19,3 +19,6 @@ sudo systemctl ststus jenkins
 
 ## now unlock the jenkins
 
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
+
