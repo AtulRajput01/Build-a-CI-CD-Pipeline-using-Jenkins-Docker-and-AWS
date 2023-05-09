@@ -14,4 +14,4 @@ sudo apt-get install jenkins
 
 ## You can check the status of Jenkins by the following command
 
-
+sudo systemctl ststus jenkins
