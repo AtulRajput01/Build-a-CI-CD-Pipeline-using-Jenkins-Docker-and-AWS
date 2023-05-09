@@ -32,6 +32,8 @@ sudo docker run hello-world
 ## Now, we want to use docker services without the sudo command. So, in order to do so, we have to add this current "ubuntu" user to the docker group.
 
 
+sudo usermod -aG docker ubuntu
+newgrp docker
 
     
  
